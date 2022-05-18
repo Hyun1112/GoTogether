@@ -6,7 +6,7 @@
 
 
 ### 주제 : 다양한 전시회를 모아볼 수 있는 application
-< img src="https://user-images.githubusercontent.com/88569472/169058460-80f195cf-4e60-408a-8f98-62f6822d9e44.png" width="100" height="100" >
+![logo](https://user-images.githubusercontent.com/88569472/169058460-80f195cf-4e60-408a-8f98-62f6822d9e44.png)
 
 
 
