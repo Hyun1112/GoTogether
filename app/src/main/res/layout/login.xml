@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FA"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:background="#F8F8FA"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--로고-->
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/mapogoldenpier"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:shadowRadius="10.0"
+                android:shadowDx="2.0"
+                android:shadowDy="2.0"
+                android:shadowColor="#767676"
+                android:text="같이 가Go" />
+
+            <!--아이디-->
+            <EditText
+                android:id="@+id/login_editText1"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_rectangle"
+                android:ems="10"
+                android:hint="   아이디"
+                android:textSize="15dp"
+                android:inputType="textPersonName" />
+
+            <!--패스워드-->
+            <EditText
+                android:id="@+id/login_editText2"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_rectangle"
+                android:ems="10"
+                android:hint="   비밀번호"
+                android:textSize="15dp"
+                android:inputType="textPassword" />
+
+            <!--로그인 버튼-->
+            <Button
+                android:id="@+id/login_button1"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:onClick="login"
+                android:text="로그인"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                app:backgroundTint="#FFE849" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <!--회원가입 버튼-->
+                <Button
+                    android:id="@+id/login_button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="회원가입"
+                    android:textSize="13dp"
+                    android:textColor="#767676"
+                    style="?android:attr/borderlessButtonStyle"
+                    app:backgroundTint="#F8F8FA" />
+
+                <!--앱 종료 버튼-->
+                <Button
+                    android:id="@+id/login_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="앱 종료"
+                    android:textSize="13dp"
+                    android:textColor="#767676"
+                    style="?android:attr/borderlessButtonStyle"
+                    app:backgroundTint="#F8F8FA" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FA"
+    android:orientation="vertical"
+    tools:context=".JoinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/join_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mapogoldenpier"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:shadowRadius="10.0"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowColor="#767676"
+            android:text="SIGN UP" />
+
+        <!--회원가입시 넣을 이름-->
+        <EditText
+            android:id="@+id/join_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="이름"
+            android:inputType="textPersonName" />
+
+        <!--회원가입시 넣을 ID-->
+        <EditText
+            android:id="@+id/join_id"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="textPersonName" />
+
+        <!--회원가입시 넣을 Password-->
+        <EditText
+            android:id="@+id/join_pw"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="PASSWORD"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+
+        <!--뒤로가기 버튼-->
+        <Button
+            android:id="@+id/join_back"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textSize="18dp"
+            android:textColor="#767676"
+            style="?android:attr/borderlessButtonStyle"
+            app:backgroundTint="#F8F8FA"/>
+
+        <!--회원가입완료 버튼-->
+        <Button
+            android:id="@+id/join_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sign up"
+            android:textSize="18dp"
+            android:textColor="#767676"
+            style="?android:attr/borderlessButtonStyle"
+            app:backgroundTint="#F8F8FA"/>
+
+    </LinearLayout>
+
+</LinearLayout>
