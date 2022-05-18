@@ -1,13 +1,13 @@
-### GoTogether | 같이 가Go
+# GoTogether | 같이 가Go
 
 
 
 
-# 주제 : 다양한 전시회를 모아볼 수 있는 application
+### 주제 : 다양한 전시회를 모아볼 수 있는 application
 
 
 
-# 주요 기능 
+##### 주요 기능 
 주요 기능
 --- |
 로그인 및 회원 가입 | 
