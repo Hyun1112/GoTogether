@@ -27,7 +27,7 @@
 
 
 #### * UI
-로그인 | 회원가입
+회원가입 | 로그인
 --- | ---
 ![join](https://user-images.githubusercontent.com/88569472/169054892-88d02dbd-2b0b-479c-8645-043cea118bf3.png) | ![login](https://user-images.githubusercontent.com/88569472/169054894-1582938b-a04a-474c-8d19-74a1ffe030d1.png)
 
