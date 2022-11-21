@@ -30,9 +30,9 @@
 ### 💡 UI
 회원가입 | 로그인
 --- | ---
-![join](https://user-images.githubusercontent.com/88569472/169054892-88d02dbd-2b0b-479c-8645-043cea118bf3.png) | ![login](https://user-images.githubusercontent.com/88569472/169054894-1582938b-a04a-474c-8d19-74a1ffe030d1.png)
+<img src="https://user-images.githubusercontent.com/88569472/169054892-88d02dbd-2b0b-479c-8645-043cea118bf3.png" width="200px" height="500px"> | <img src="https://user-images.githubusercontent.com/88569472/169054894-1582938b-a04a-474c-8d19-74a1ffe030d1.png" width="200px" height="500px">
 
-<img src="https://user-images.githubusercontent.com/88569472/169054892-88d02dbd-2b0b-479c-8645-043cea118bf3.png" width="500px" height="250px">
+<img src="https://user-images.githubusercontent.com/88569472/169054894-1582938b-a04a-474c-8d19-74a1ffe030d1.png" width="200px" height="500px">
 
 
 ### 💡 메인화면
